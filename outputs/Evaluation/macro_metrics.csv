@@ -1,0 +1,9 @@
+Metric,Value
+ROC AUC,0.8333
+Accuracy,0.9833
+Precision,0.2409
+Recall,0.1107
+F1 Score,0.1457
+MCC,0.1537
+TPR (Sensitivity),0.1107
+TNR (Specificity),0.9979
