@@ -1,0 +1,11 @@
+Disease,True_Positive,False_Positive,True_Negative,False_Negative
+DR,107,32,476,25
+ARMD,29,27,575,9
+MH,89,45,493,13
+DN,24,47,547,22
+MYA,30,19,587,4
+BRVO,18,16,601,5
+TSLN,50,38,537,15
+ODC,45,46,522,27
+ODP,7,52,562,19
+ODE,11,5,614,10
