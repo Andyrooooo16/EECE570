@@ -1,9 +1,9 @@
-Metric,Value
-ROC AUC,0.8333
-Accuracy,0.9833
-Precision,0.2409
-Recall,0.1107
-F1 Score,0.1457
-MCC,0.1537
-TPR (Sensitivity),0.1107
-TNR (Specificity),0.9979
+Metric,All Classes,Selected Diseases
+ROC_AUC,0.8333,0.9173
+ACCURACY,0.977,0.9256
+PRECISION,0.1942,0.53
+RECALL,0.2704,0.682
+F1,0.2208,0.5891
+MCC,0.2154,0.5577
+TPR,0.2704,0.682
+TNR,0.9836,0.9432

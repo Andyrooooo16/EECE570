@@ -11,8 +11,6 @@ class RetinalFundusDataset(Dataset):
         self.img_folder = img_folder
         self.labels_df = pd.read_csv(csv_path)
         self.transform = transform
-        
-        # Keep only disease columns (excluding ID and Disease_Risk)
         self.disease_cols = [col for col in self.labels_df.columns if col not in ['ID', 'Disease_Risk']]
         
     def __len__(self):
@@ -57,7 +55,7 @@ train_dataset = RetinalFundusDataset(
 
 disease_names = train_dataset.disease_cols
 print("✅ Training dataset loaded and transformations applied successfully.")
-print(f"🔬 Total disease classes: {len(disease_names)}")
+print(f"Total disease classes: {len(disease_names)}")
 
 # ----- Load Evaluation Dataset -----
 eval_dataset = RetinalFundusDataset(
