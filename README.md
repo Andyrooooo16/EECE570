@@ -8,7 +8,7 @@ This project implements a multi-label disease classifier for retinal fundus imag
 The dataset used in this project is available here:  
 🔗 [Google Drive Dataset](https://drive.google.com/drive/folders/1_S10EHnr1WJhG0syPcaV3XSWHx25IY8N?usp=sharing)
 
-After cloning this repository, download the **entire `data/` folder** from the link above and place it inside the root directory of the project (`EECE570/`). This is required to run the code successfully and reproduce results.
+After cloning this repository, download the **entire `data/` folder** from the link above and place it inside the root directory of the project (`Fundus-Classifier/`). This is required to run the code successfully and reproduce results.
 
 ---
 
@@ -16,7 +16,7 @@ After cloning this repository, download the **entire `data/` folder** from the l
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Andyrooooo16/ResNet50-Retinal-Fundus-Image-Classifier.git
+git clone https://github.com/Andyrooooo16/Fundus-Classifier.git
 cd ResNet50-Retinal-Fundus-Image-Classifier
 
 ### 2. Set Up the Dataset
@@ -26,7 +26,7 @@ Place the folder directly inside the project root:
 css
 Copy
 Edit
-EECE570/
+Fundus-Classifier/
 ├── data/
 ├── src/
 ├── outputs/
@@ -38,7 +38,7 @@ All source code is located in the src/ directory:
 css
 Copy
 Edit
-EECE570/
+Fundus-Classifier/
 └── src/
     ├── crop_pictures.py
     ├── dataset.py
@@ -61,15 +61,15 @@ Run 'disease_breakdown.py' to generate three visualization graphs in your browse
 #### 4. Model Setup
 The 'model.py' file contains the pretrained ResNet50 model with adjusted hyperparameters for initial training.
 #### 5. Model Training
-Run 'train_model.py' to train the multi-label classifier using the cropped Training Dataset and the model from 'model.py'. This will save 'best_fundus_model.pth' in the EECE570/outputs/Training folder.
+Run 'train_model.py' to train the multi-label classifier using the cropped Training Dataset and the model from 'model.py'. This will save 'best_fundus_model.pth' in the Fundus-Classifier/outputs/Training folder.
 #### 6. Model Evaluation
-Run 'evaluate.py' to assess the performance of 'best_fundus_model.pth'. Evaluation metrics will be saved in the EECE570/outputs/Evaluation folder.
+Run 'evaluate.py' to assess the performance of 'best_fundus_model.pth'. Evaluation metrics will be saved in the Fundus-Classifier/outputs/Evaluation folder.
 #### 7. Model Fine-tuning
 Run 'finetuning_model.py' to fine-tune the model. This will generate 'fine_tuned_model.pth'.
 #### 8. Fine-tuned Model Evaluation
-Run 'evaluate_finetuned.py' to evaluate the fine-tuned model. Results will be saved under EECE570/outputs/Fine_Tuned.
+Run 'evaluate_finetuned.py' to evaluate the fine-tuned model. Results will be saved under Fundus-Classifier/outputs/Fine_Tuned.
 #### 9. Final Testing
-Run 'test_finetuned.py' to perform the final evaluation of the fine-tuned model on the test dataset. Final evaluation metrics will be saved in the EECE570/outputs/Test folder.
+Run 'test_finetuned.py' to perform the final evaluation of the fine-tuned model on the test dataset. Final evaluation metrics will be saved in the Fundus-Classifier/outputs/Test folder.
 
 
 
