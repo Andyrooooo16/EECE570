@@ -1,6 +1,5 @@
-# EECE570 Final Project – Retinal Fundus Disease Classifier  
-**Author:** Andrew Feng (ID: 12039012)  
-**Course:** EECE 570 - Computer Vision  
+# Retinal Fundus Disease Classifier  
+**Author:** Andrew Feng
 
 ## Project Overview
 This project implements a multi-label disease classifier for retinal fundus images using a fine-tuned ResNet-50 model. It explores classification performance on a medical dataset through training, evaluation, and fine-tuning pipelines. The goal is to effectively detect key retinal diseases, addressing class imbalance and real-world diagnostic challenges.
