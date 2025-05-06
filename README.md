@@ -16,8 +16,8 @@ After cloning this repository, download the **entire `data/` folder** from the l
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/EECE570.git
-cd EECE570
+git clone https://github.com/Andyrooooo16/ResNet50-Retinal-Fundus-Image-Classifier.git
+cd ResNet50-Retinal-Fundus-Image-Classifier
 
 ### 2. Set Up the Dataset
 Download the data/ folder from the Google Drive link
